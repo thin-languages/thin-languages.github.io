@@ -2,7 +2,7 @@
 layout:     post
 title:      "Primer encuentro Less - Cálculo Lambda, Diciembre 2015"
 subtitle:   ""
-date:       2015-11-12 18:00:00
+date:       2015-12-16 18:00:00
 author:     "Federico Cano"
 header-img: "img/post-bg-08.jpg"
 ---
