@@ -1,0 +1,18 @@
+---
+layout:     post
+title:      "Video de Presentación de Thin Languages en WISIT '15"
+subtitle:   ""
+date:       2015-11-12 18:00:00
+author:     "Ernesto Bossi"
+header-img: "img/post-bg-08.jpg"
+---
+
+El 19 de Septiembre mostramos la idea de Thin en el WISIT que se realizó en la Universidad Nacional de Quilmes (UNQ). 
+
+Este fue el video de la presentación que hicimos ese día en el WISIT.
+
+<iframe width="420" height="345"
+src="https://www.youtube.com/watch?v=cZ2ZGNUqWXg">
+</iframe>
+
+La presentación que se mostró en el WISIT es la [siguiente](https://goo.gl/80l8ex)
