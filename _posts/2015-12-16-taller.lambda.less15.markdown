@@ -1,0 +1,55 @@
+---
+layout:     post
+title:      "Primer encuentro Less - Cálculo Lambda, Diciembre 2015"
+subtitle:   ""
+date:       2015-11-12 18:00:00
+author:     "Federico Cano"
+header-img: "img/post-bg-08.jpg"
+---
+
+El miércoles pasado (16/12/15) nos juntamos a charlar y codear un rato; este es el resumen:
+
+Vimos de que se trata el calculo lambda
+Implementamos un parser, con el parser combinator en Scala.
+
+## Sobre el calculo lambda:
+
+Es un lenguaje pequeño en el que se pueden representar todas las funciones computables, entonces es fácil extender y probar propiedades.
+En particular, tiene la siguiente sintaxis:
+
+* **\<variable\>**
+* **\<exp-λ\> \<exp-λ\>**: representa el resultado de aplicar una expresión sobre otra (reduciendo a izquierda?)
+* **λ\<variable\>.\<exp-λ\>**: representa el valor de evaluar la expresión, donde la variable se ligue con los argumentos (Esto quizás esta jodido de contar…) (más abajo, en un ejemplo quizás se entiende mejor)
+
+Y esta semántica (o reducciones):
+
+* α-reducción: renombramiento de variables
+* β-reducción: vinculaciones de variables (“bindings”)
+* η-reducción: dos funciones son iguales si al aplicarles los mismos argumentos dan los mismos resultados.
+* β-reducción es la más importante, ya que define la aplicación de expresiones a expresiones.
+
+Ejemplo
+
+|-----------------------------+----------------------------------------------------------|
+|            Expresión        |                        Comentarios                       |
+|-----------------------------|:---------------------------------------------------------|
+| (λz.z) ((λy.y y) (λx.x a))  | aplicamos β-reducción (donde y, reemplazo con (λx.x a))  |
+| (λz.z) ((λx.x a) (λx.x a))  | aplicamos β-reducción (donde x, reemplazo con (λx.x a))  |
+| (λz.z) ((λx.x a) a)	      |  aplicamos β-reducción (donde x, reemplazo con a)        |
+| (λz.z) (a a)                | aplicamos α-reducción (renombro z por a)                 |
+| a a                         | resultado                                                |
+|-----------------------------+----------------------------------------------------------|
+
+	
+Luego extendimos, y creamos los boolean (true, false, y otras operaciones or y not).
+Otra cosa a tener en cuenta es si la reducciones se aplican como call by value o call by name, esta es la diferencia eager o lazy; aveces eager puede llevarnos a reducciones sin fin.
+
+Luego de contadas estas cosas, programamos el parser: <https://github.com/thin-languages/LambdaLess>
+
+#Por último, estas tareas para el hogar:
+
+* Números en calculo lambda (++, +n, *n, (difícil: predecesor))
+* Registros ([ , , ])
+* Programar reduce de la expresión, y que sepa cuando ya termino. (problema de las variables únicas)
+* Hacer un parser (json, xml, morse)
+* Y en la próxima juntada: Discutir arquitectura de Less
