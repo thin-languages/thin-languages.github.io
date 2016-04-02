@@ -101,7 +101,7 @@ permalink: /team/
         <div class="right">
             <div class="description">
                 <h2>Juan Fernandes dos Santos</h2>
-                <span>bleh</span>
+                <span>Wizard lvl 42</span>
             </div>
         </div>
 
@@ -117,7 +117,7 @@ permalink: /team/
             <div class="right">
                 <div class="description">
                     <h2>Juan Martin Rios</h2>
-                    <span>bleh</span>
+                    <span>Ex basketball player, student and coffee lover</span>
                 </div>
             </div>
     
