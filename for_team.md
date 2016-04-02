@@ -26,7 +26,7 @@ Github: [https://github.com/thin-languages/slimdown](https://github.com/thin-lan
 
 ## Our roadmap tickets
 
-[Trello](https://trello.com/b/ilLoI8B3/thin-languages)
-[More - issues](https://waffle.io/thin-languages/more)
-[Less - issues](https://waffle.io/thin-languages/less)
-[Slimdown - issues](https://waffle.io/thin-languages/slimdown)
+- [Trello](https://trello.com/b/ilLoI8B3/thin-languages)
+- [More - issues](https://waffle.io/thin-languages/more)
+- [Less - issues](https://waffle.io/thin-languages/less)
+- [Slimdown - issues](https://waffle.io/thin-languages/slimdown)
