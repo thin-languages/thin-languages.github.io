@@ -85,7 +85,7 @@ permalink: /team/
         <div class="right">
             <div class="description">
                 <h2>Ivan Luetich</h2>
-                <span>Meh...(?)</span>
+                <span>Bleh...(?)</span>
             </div>
         </div>
 
