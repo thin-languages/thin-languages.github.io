@@ -54,7 +54,7 @@ permalink: /team/
         <div class="right">
             <div class="description">
                 <h2>Nicolas Scarcella</h2>
-                <span>Fan of Stephen King books and Warhammer</span>
+                <span>Project admin. Coca-Cola lover. Bald.</span>
             </div>
         </div>
 
@@ -69,7 +69,7 @@ permalink: /team/
         <div class="right">
             <div class="description">
                 <h2>Ernesto Bossi</h2>
-                <span>bleh</span>
+                <span>Compiler expert and whisky connoisseur.</span>
             </div>
         </div>
 
@@ -85,7 +85,7 @@ permalink: /team/
         <div class="right">
             <div class="description">
                 <h2>Ivan Luetich</h2>
-                <span>Bleh...(?)</span>
+                <span>super developer</span>
             </div>
         </div>
 
@@ -133,7 +133,7 @@ permalink: /team/
         <div class="right">
             <div class="description">
                 <h2>Matias Martino</h2>
-                <span>Hearthstone compulsive player.</span>
+                <span>super developer and Hearthstone compulsive player.</span>
             </div>
         </div>
 
@@ -149,7 +149,7 @@ permalink: /team/
         <div class="right">
             <div class="description">
                 <h2>Nahuel Palumbo</h2>
-                <span>bleh</span>
+                <span>super developer and rastaman</span>
             </div>
         </div>
 
@@ -165,7 +165,7 @@ permalink: /team/
         <div class="right">
             <div class="description">
                 <h2>Gaston Santoalla</h2>
-                <span>bleh</span>
+                <span>super developer</span>
             </div>
         </div>
 
