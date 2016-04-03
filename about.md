@@ -85,7 +85,7 @@ permalink: /team/
         <div class="right">
             <div class="description">
                 <h2>Ivan Luetich</h2>
-                <span>super developer</span>
+                <span>Super developer</span>
             </div>
         </div>
 
@@ -133,7 +133,7 @@ permalink: /team/
         <div class="right">
             <div class="description">
                 <h2>Matias Martino</h2>
-                <span>super developer and Hearthstone compulsive player.</span>
+                <span>Super developer and Hearthstone compulsive player.</span>
             </div>
         </div>
 
@@ -149,7 +149,7 @@ permalink: /team/
         <div class="right">
             <div class="description">
                 <h2>Nahuel Palumbo</h2>
-                <span>super developer and rastaman</span>
+                <span>Super developer and rastaman</span>
             </div>
         </div>
 
@@ -165,7 +165,7 @@ permalink: /team/
         <div class="right">
             <div class="description">
                 <h2>Gaston Santoalla</h2>
-                <span>super developer</span>
+                <span>Super developer</span>
             </div>
         </div>
 
